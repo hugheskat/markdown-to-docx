@@ -1,6 +1,8 @@
+# Markdown to docx
+
 ## Summary
 
-This will convert markdown files with basic markdown syntax to docx. I wrote this script because Pandoc is blocked by my company. The script is adapted from: 
+`md-to-docx.py` will convert markdown files with basic markdown syntax to docx. I wrote this script because Pandoc is blocked by my company. The script is adapted from: 
 https://www.cyberforum.ru/python-beginners/thread2607589.html.
 
 It will not convert everything and the docx files are likely to require some editing.
