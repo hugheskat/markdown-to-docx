@@ -86,3 +86,7 @@ The following elements/syntax WILL NOT be converted:
 ## Output
 
 - The converted .docx files will be output in an 'Output docx' folder within the user-specified folder.
+
+## File dependencies
+
+- `scripttime.py` and `endmessage.py` are used to generate the confirmation message printed out once the script has been executed.
