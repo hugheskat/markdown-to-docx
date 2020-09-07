@@ -14,9 +14,6 @@ import scripttime
 # get the start time
 start_time  = time.time()
 
-# log usage
-logusage.addtolog(getpass.getuser(), time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()), os.path.basename(__file__))
-
 ## regex patterns to capture formatting, inline code, hyperlinks and numbered lists
 inline_code_pattern = re.compile(r"([`].*?[`])")
 inline_code_pattern2 = re.compile(r"[`](.*?)[`]")
